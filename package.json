@@ -1,0 +1,34 @@
+{
+  "name": "babel-to-require",
+  "version": "1.0.0",
+  "description": "A test website to test a build process that takes ES6 classes, uses babel to convert them to AMD modules and then optimise with the require.js optimiser.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathantwite/babel-to-require.git"
+  },
+  "author": "Twite, Jonathan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonathantwite/babel-to-require/issues"
+  },
+  "homepage": "https://github.com/jonathantwite/babel-to-require#readme",
+  "dependencies": {
+    "almond": "^0.3.3",
+    "bootstrap": "^4.2.1",
+    "jquery": "^3.3.1",
+    "popper": "^1.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-transform-modules-amd": "^7.2.0",
+    "@babel/preset-env": "^7.2.3",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0-beta.2",
+    "gulp-requirejs-optimize": "^1.3.0"
+  }
+}
